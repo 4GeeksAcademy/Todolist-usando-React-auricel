@@ -10,3 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    
+    font-size: 25px;
+}
+
+li {
+   white-space: nowrap;
+    border-radius: 10px;
+    display: flex; align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+
+}
+input {
+    border-radius: 5px;
+    border-color:red;
+}
+list-group{
+    padding: 50px;
+}
